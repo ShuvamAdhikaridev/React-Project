@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Login from "./componenets/Auth/Login";
 import EmployeeDashbord from "./componenets/Dashbord/EmployeeDashbord";
+import AdminDashbord from "./componenets/Dashbord/AdminDashbord";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
       {/* <Login /> */}
-      <EmployeeDashbord />
+      {/* <EmployeeDashbord /> */}
+      <AdminDashbord />
     </>
   );
 }
