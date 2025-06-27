@@ -1,5 +1,5 @@
 import React from "react";
-const CreateTask = () => {
+const CreateTask = ({ data }) => {
   return (
     <div className="p-5 bg-[#1c1c1c] mt-5 rounded">
       <form className="flex flex-wrap w-full items-start justify-between">
